@@ -1,0 +1,25 @@
+# Flutter/Dart related
+*.dart linguist-language=Dart
+*.h linguist-language=Dart
+*.cc linguist-language=Dart
+*.cpp linguist-language=Dart
+
+# Flutter/Dart specific files
+*.dart linguist-detectable=true
+
+# Mark C/C++ files as non-detectable
+*.c linguist-detectable=false
+*.h linguist-detectable=false
+*.cc linguist-detectable=false
+*.cpp linguist-detectable=false
+
+# Flutter/Dart directories
+lib/** linguist-language=Dart
+
+# Ignore generated files
+*.g.dart linguist-generated=true
+*.freezed.dart linguist-generated=true
+
+# Ignore certain directories
+android/* linguist-vendored
+ios/* linguist-vendored
