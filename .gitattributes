@@ -13,6 +13,10 @@
 *.cc linguist-detectable=false
 *.cpp linguist-detectable=false
 
+# CMake related
+CMakeLists.txt linguist-detectable=false
+*.cmake linguist-detectable=false
+
 # Flutter/Dart directories
 lib/** linguist-language=Dart
 
@@ -23,3 +27,6 @@ lib/** linguist-language=Dart
 # Ignore certain directories
 android/* linguist-vendored
 ios/* linguist-vendored
+windows/* linguist-vendored
+linux/* linguist-vendored
+macos/* linguist-vendored
